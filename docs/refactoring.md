@@ -24,4 +24,5 @@
 
 - Riverpod の v1 と v2 が混在している
 - Riverpod v2 の機能を活かしきれていないため冗長になっている
+  - AsyncNotifier を使わず，FutureBuilder が使われているなど
 - Map 型の乱用による可読性の低下
