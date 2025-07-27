@@ -13,10 +13,15 @@
 
 ## アーキテクチャパターンに則っていない実装の具体例
 
-- 依存関係の逆転（Repository が Controller に依存するなど）
+- 依存関係の逆転
+  - Repository が Controller に依存
+  - Widget が Repository に依存
 - 適切ではないモジュール化
+- 不適切な実装
+  - ルートの Widget の State の初期化時に色々な処理が呼び出されているなど
 
 ## コードの問題点
 
-- Riverpod の機能を活かしきれていないため冗長になっている
+- Riverpod の v1 と v2 が混在している
+- Riverpod v2 の機能を活かしきれていないため冗長になっている
 - Map 型の乱用による可読性の低下
