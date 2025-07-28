@@ -18,7 +18,10 @@
     ![カバレッジ](./images/code_coverage.png)
   - 今後継続的に増やしていく
 - GitHub Actions による CI
-  - PR 作成・同期時、main マージ・プッシュ時、毎日 0 時
+  - トリガー
+    - PR 作成・同期時
+    - main マージ・プッシュ時
+    - 毎日 0 時
 
 ## CD
 
