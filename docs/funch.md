@@ -27,9 +27,7 @@ Funch は、学生が学食メニューを簡単に閲覧できるシステム�
 
 Funch は以下の 3 つのコンポーネントで構成されています：
 
-https://www.figma.com/board/7qfwizDH5oPRaRXskSmsDR/Untitled?node-id=0-1&p=f&t=fFf5uPzSITsFPcsJ-0
-
-![Funch システム構成図](images/Funch.png)
+![Funch システム構成図](./images/funch_architecture.png)
 
 #### 1. Funch Admin（管理者用 Web アプリ）
 
@@ -50,17 +48,12 @@ https://www.figma.com/board/7qfwizDH5oPRaRXskSmsDR/Untitled?node-id=0-1&p=f&t=fF
 
 ### データフロー
 
-学食メニューが学生に表示されるまでの流れ：
+学食メニューが学生に表示されるまでの流れ
 
-```
 1. 大学生協の方がFunch Adminでメニューを入力
-          ↓
 2. メニューデータがFirebaseに保存される
-          ↓
 3. Funch-DottoがFirebaseからデータを取得
-          ↓
 4. 学生のアプリ画面にメニューが表示される
-```
 
 **詳細な処理フロー**:
 
@@ -68,15 +61,6 @@ https://www.figma.com/board/7qfwizDH5oPRaRXskSmsDR/Untitled?node-id=0-1&p=f&t=fF
 2. **データ保存**: 入力されたメニュー情報が Firestore/Storage に自動保存
 3. **リアルタイム同期**: Firebase のリアルタイム DB でデータが即座に同期
 4. **学生表示**: Dotto アプリが最新のメニューデータを自動取得・表示
-
-## アーキテクチャ構成
-
-```
-┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│   Admin Web App     │    │     Firebase        │    │   Flutter App       │
-│      (Cloud Run)    │◄──►│   (Database & API)  │◄──►│    (Mobile)         │
-└─────────────────────┘    └─────────────────────┘    └─────────────────────┘
-```
 
 ## 技術スタック
 
