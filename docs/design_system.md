@@ -42,3 +42,4 @@ Dotto アプリの継続的な改善や機能追加を、より効率的かつ�
 ![セマンティックカラー](./images/Semantic%20Colors.png)
 ![タイポグラフィALL](./images/Typography%20all.png)
 ![タイポグラフィ一部切り抜き](./images/typography.png)
+![Dotto UI v2](./images/Dotto%20UI%20v2.png)
