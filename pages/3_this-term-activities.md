@@ -18,7 +18,10 @@
 
 ### CD
 
-<img src="./images/cd_workflow.png" width="100%" />
+- fastlane
+  - 証明書管理 (iOS)
+  - アプリアーカイブと配信を自動化
+- GitHub Actionsを用いたCDワークフローの構築を目指す
 
 <!--
 リリース前にテスト環境へのデプロイを手動で行っていた。GitHub Actions による CD ワークフローの構築に向け、 fastlane を用いた証明書管理やアプリアーカイブのアップロード配信の自動化を行なった。
