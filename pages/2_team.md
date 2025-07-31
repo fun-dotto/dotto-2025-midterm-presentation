@@ -7,8 +7,16 @@
 
 <img class="mx-auto my-4" src="./images/members.png" width="90%" />
 
+<!--
+
+-->
+
 ---
 
 <Header subtitle="今年度の開発体制">チーム体制</Header>
 
 <img class="my-10" src="./images/team.svg" width="100%" />
+
+<!--
+
+-->
