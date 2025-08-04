@@ -1,9 +1,5 @@
 # Dotto 2025 中間発表
 
-- [LT台本](./LT.md)
-
----
-
 ## Dottoとは
 
 ## 開発体制
@@ -21,3 +17,7 @@
 - [Remote Config](./remote_config.md)
 
 ## 来期の活動
+
+---
+
+- [LT台本](./LT.md)
